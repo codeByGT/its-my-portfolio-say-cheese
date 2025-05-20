@@ -41,7 +41,7 @@ nav a {
     background-image: linear-gradient(to left, #8a2be2, #800080);
 }
 .hero-text {
-    background-image: url(hero-bg.jpg);
+    background-image: url(../media/hero-bg.jpg);
     background-size: cover;
     background-position: 70% 40%;
     align-content: center;
@@ -87,7 +87,7 @@ abbr {
     text-decoration: none;
 }
 .about {
-    background-image: url(about-bg.jpg);
+    background-image: url(../media/about-bg.jpg);
     background-size: cover;
     background-position: 70% 40%;
     text-align: center;
@@ -162,10 +162,11 @@ em {
     max-height: 18em;
 }
 .project-cards img {
-    max-height: 5em;
+    max-height: 10em;
     max-width: auto;
     display: block;
     margin: auto;
+    box-shadow: 2px 2px 6px black;
 }
 .project-cards p {
     text-align: center;
@@ -265,7 +266,7 @@ footer {
     background-image: linear-gradient(to left, #800080, #8a2be2);
     text-align: center;
     padding: 0.2rem;
-    color: #5c005c;
+    color: whitesmoke;
     border-radius: 0px 0px 0 0;
     font-family: "Fira Code", "Sans-serif";
     font-weight: 200;
